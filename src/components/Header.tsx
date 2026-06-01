@@ -17,6 +17,9 @@ export default function Header({ className }: HeaderProps) {
           <a href="#map" className="text-white hover:text-neutral-300 transition-colors duration-300 uppercase text-sm">
             Карта
           </a>
+          <a href="#stays" className="text-white hover:text-neutral-300 transition-colors duration-300 uppercase text-sm">
+            Отели
+          </a>
           <a href="#contact" className="text-white hover:text-neutral-300 transition-colors duration-300 uppercase text-sm">
             Контакт
           </a>
