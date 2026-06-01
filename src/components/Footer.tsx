@@ -1,6 +1,7 @@
 export default function Footer() {
   return (
     <div
+      id="contact"
       className="relative h-[400px] sm:h-[600px] lg:h-[800px] max-h-[800px]"
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
@@ -10,31 +11,53 @@ export default function Footer() {
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Навигация</h3>
-                <a
-                  href="#routes"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Маршруты
+                <a href="#sights" className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base">
+                  Достопримечательности
                 </a>
-                <a
-                  href="#facts"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  О горе
+                <a href="#brands" className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base">
+                  Бренды
+                </a>
+                <a href="#contact" className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base">
+                  Контакт
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Факты</h3>
-                <span className="text-white text-sm sm:text-base">5 642 м — высота</span>
-                <span className="text-white text-sm sm:text-base">Кабардино-Балкария</span>
-                <span className="text-white text-sm sm:text-base">Семь вершин мира</span>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Париж</h3>
+                <span className="text-neutral-400 text-sm sm:text-base">100+ млн туристов / год</span>
+                <span className="text-neutral-400 text-sm sm:text-base">Столица Франции</span>
+                <span className="text-neutral-400 text-sm sm:text-base">Основан: 250 до н.э.</span>
+              </div>
+              <div className="flex flex-col gap-1 sm:gap-2">
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Связь</h3>
+                <a
+                  href="mailto:hello@paris-guide.com"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  hello@paris-guide.com
+                </a>
+                <a
+                  href="https://t.me/paris_guide"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Telegram
+                </a>
+                <a
+                  href="https://instagram.com/paris_guide"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Instagram
+                </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                ЭЛЬБРУС
+                PARIS
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Elbrus Guide</p>
+              <p className="text-neutral-500 text-sm sm:text-base">{new Date().getFullYear()} Paris Guide</p>
             </div>
           </div>
         </div>
