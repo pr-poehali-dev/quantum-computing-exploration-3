@@ -14,6 +14,9 @@ export default function Header({ className }: HeaderProps) {
           <a href="#brands" className="text-white hover:text-neutral-300 transition-colors duration-300 uppercase text-sm">
             Бренды
           </a>
+          <a href="#map" className="text-white hover:text-neutral-300 transition-colors duration-300 uppercase text-sm">
+            Карта
+          </a>
           <a href="#contact" className="text-white hover:text-neutral-300 transition-colors duration-300 uppercase text-sm">
             Контакт
           </a>
