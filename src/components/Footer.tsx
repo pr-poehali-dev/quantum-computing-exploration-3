@@ -30,26 +30,30 @@ export default function Footer() {
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Связь</h3>
                 <a
-                  href="mailto:hello@paris-guide.com"
+                  href="tel:+79001452264"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  hello@paris-guide.com
+                  +7 900 145-22-64
                 </a>
                 <a
-                  href="https://t.me/paris_guide"
+                  href="tel:0143693016"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  01 43 69 30 16
+                </a>
+                <a
+                  href="mailto:paris@mysite.ru"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  paris@mysite.ru
+                </a>
+                <a
+                  href="https://instagram.com/me_paris_guide"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Telegram
-                </a>
-                <a
-                  href="https://instagram.com/paris_guide"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Instagram
+                  @me_paris_guide
                 </a>
               </div>
             </div>
